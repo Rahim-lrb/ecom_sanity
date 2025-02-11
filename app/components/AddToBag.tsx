@@ -9,7 +9,7 @@ export interface productCart {
     description: string;
     price: number;
     currency: string;
-    image: any;
+    image: string | number;
     price_id: string;
 }
 export default function AddToBag({currency, name, description, image, price, price_id}: productCart) {
